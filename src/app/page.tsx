@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import panaversePic from "../app/panaversePic.jpeg";
 
-export default function Page() {
+export default function Page2() {
   return (
     <div>
       <div className="flex justify-center bg-gray-300">
@@ -22,11 +22,11 @@ export default function Page() {
             A community of Metaverse and Web 3.0 Development
           </h2>
           <button className="my-4 px-4 py-2 border-2 border-black rounded-lg text-white bg-blue-900 drop-shadow-xl shadow-inner shadow-slate-800">
-            <Link href={"src\app\page.tsx"}>Quotes</Link>
+            <Link href="/displayFlex">Quotes</Link>
           </button>
           <div>
             <button className="mx-10 m-2 mb-5 p-2 rounded-xl ring ring-blue-900 ring-offset-2 ring-offset-black bg-white shadow-lg shadow-slate-900">
-              <Link href={"/justifybuttons"}>Justify Buttons</Link>
+              <Link href={"/justifyContent"}>Justify Content</Link>
             </button>
             <button className="mx-10 m-2 mb-5 p-2 rounded-xl ring ring-blue-900 ring-offset-2 ring-offset-black bg-white shadow-lg shadow-slate-900">
               About Us

@@ -1,4 +1,4 @@
-import './page.css';
+import './index.css';
 
 export default function Page() {
   return (
