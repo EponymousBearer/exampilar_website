@@ -23,27 +23,26 @@ export default function Page2() {
           </h2>
         </div>
       </div>
-      <div className=" mt-auto bg-gradient-to-r from-blue-500 via-blue-900 to-blue-500">
-        <button className="my-4 px-4 py-2 border-2 border-black rounded-lg text-white bg-blue-900 drop-shadow-xl shadow-inner shadow-slate-800">
+      <div className="align-middle justify-center mt-auto bg-gradient-to-r from-blue-500 via-blue-900 to-blue-500">
+        <button>
           <Link href="/displayFlex">Quotes</Link>
         </button>
-        <button className="mx-10 m-2 mb-5 p-2 rounded-xl ring ring-blue-900 ring-offset-2 ring-offset-black bg-white shadow-lg shadow-slate-900">
+        <button>
           <Link href={"/justifyContent"}>Justify Content</Link>
         </button>
-        <button className="mr-10 ring-2 ring-white px-2 p-3 m-7 rounded-full bg-blue-500 shadow-xl shadow-black text-white">
+        <button>
           <Link href={"/flexShrink"}>Flex Shrink</Link>
         </button>
-        <button className="mr-10 ring-2 ring-white px-2 p-3 m-7 rounded-full bg-blue-500 shadow-xl shadow-black text-white">
+        <button>
           <Link href={"/flexGrow"}>Flex Grow</Link>
         </button>
-
-        <button className="mx-10 m-2 mb-5 p-2 rounded-xl ring ring-blue-900 ring-offset-2 ring-offset-black bg-white shadow-lg shadow-slate-900">
+        <button>
           <Link href={"/flexWrap"}>Flex Wrap</Link>
         </button>
-        <button className="mx-10 m-2 mb-5 p-2 rounded-xl ring ring-blue-900 ring-offset-2 ring-offset-black bg-white shadow-lg shadow-slate-900">
+        <button>
           <Link href={"/flexDirection"}>Flex Direction</Link>
         </button>
-        <button className="mx-10 m-2 mb-5 p-2 rounded-xl ring ring-blue-900 ring-offset-2 ring-offset-black bg-white shadow-lg shadow-slate-900">
+        <button>
           <Link href={"/alignItems"}>Align Items</Link>
         </button>
       </div>
