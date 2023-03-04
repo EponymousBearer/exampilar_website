@@ -2,8 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-200 text-gray-600 justify-center;
+  }
+}
+
 @layer components {
-  .wrapper {
-    @apply p-6 bg-amber-200 ;
+  .card {
+    @apply bg-white p-12 max-w-md rounded-lg m-10 text-center bg-center mx-auto;
+  }
+  .card h1 {
+    @apply font-bold text-3xl text-blue-600;
+  }
+  .card p {
+    @apply mt-4;
+  }
+  .links {
+    @apply mt-4;
+  }
+  button {
+    @apply rounded-xl shadow-lg shadow-slate-600 border border-black px-4 py-2 text-gray-900 text-sm
   }
 }

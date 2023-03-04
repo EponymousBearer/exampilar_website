@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import exampilarlogo from "../app/exampilarlogo.png";
+import "./page.css";
 
 export default function Page2() {
   return (
