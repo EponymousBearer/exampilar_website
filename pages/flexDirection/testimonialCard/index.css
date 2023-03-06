@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-700;
+  }
+}
+
 @layer components {
-  .wrapper {
-    @apply p-6 bg-amber-200 ;
+  .card {
+    @apply bg-white w-72 h-80 p-8 rounded-xl mt-20 mx-auto;
+  }
+  .card img {
+    @apply h-10;
+  }
+  .card span {
+    @apply font-bold text-lg;
   }
 }

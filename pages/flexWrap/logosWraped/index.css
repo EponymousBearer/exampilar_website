@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply text-gray-800;
+  }
+}
+
 @layer components {
   .wrapper {
-    @apply p-6 bg-amber-200 ;
+    @apply p-12 text-center bg-gray-100;
+  }
+  h2 {
+    @apply font-bold text-3xl;
+  }
+  .logos {
+    @apply mt-6;
+  }
+  .logos img {
+    @apply h-12 mx-4 mb-2;
   }
 }

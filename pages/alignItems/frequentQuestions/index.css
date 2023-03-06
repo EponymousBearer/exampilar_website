@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-700 p-8;
+  }
+}
+
 @layer components {
-  .wrapper {
-    @apply p-6 bg-amber-200 ;
+  .container {
+    @apply max-w-md w-auto my-6;
+  }
+  span {
+    @apply block bg-red-600 text-white font-bold text-xl py-1 px-3 rounded mr-4;
+  }
+  h3 {
+    @apply font-bold text-lg text-gray-800;
+  }
+  p {
+    @apply mt-1;
   }
 }

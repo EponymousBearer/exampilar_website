@@ -4,9 +4,12 @@
 
 @layer components {
   .wrapper {
-    @apply p-6 bg-amber-200 ;
+    @apply p-6 bg-amber-200 justify-center text-center ;
   }
   button {
     @apply mx-10 m-2 mb-5 p-2 rounded-xl ring ring-blue-200 bg-white shadow-lg shadow-slate-900
+  }
+  h1 {
+    @apply text-center m-2 text-4xl font-serif font-medium
   }
 }

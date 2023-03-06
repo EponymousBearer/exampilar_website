@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply text-gray-800;
+  }
+}
+
 @layer components {
-  .wrapper {
-    @apply p-6 bg-amber-200 ;
+  .profile {
+    @apply m-14;
+  }
+  .profile img {
+    @apply w-20 h-20 object-cover rounded-full mr-4;
+  }
+  .profile h3 {
+    @apply font-bold text-xl;
   }
 }
