@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-200 text-gray-700;
+  }
+}
+
 @layer components {
-  .wrapper {
-    @apply p-6 bg-amber-200 ;
+  p {
+    @apply text-center my-8;
+  }
+  ul {
+    @apply bg-white my-8 mx-auto;
+    width: 44rem;
+  }
+  ul li {
+    @apply p-5 text-center cursor-pointer
+    transition-all duration-200 border-b-2 border-white
+    hover:border-green-400
   }
 }

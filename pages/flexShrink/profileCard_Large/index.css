@@ -1,9 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply text-gray-700;
+  }
+}
+
 @layer components {
-  .wrapper {
-    @apply p-6 bg-amber-200 ;
+  .profile {
+    @apply m-12;
+  }
+  .profile img {
+    @apply w-20 h-20 object-cover rounded-full mr-4;
+  }
+  .profile h3 {
+    @apply font-bold text-xl;
+  }
+  .profile p {
+    @apply mt-1 leading-snug;
   }
 }

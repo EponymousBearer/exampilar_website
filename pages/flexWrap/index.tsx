@@ -8,11 +8,11 @@ export default function Page() {
         <h1>Flex Wrap</h1>
       </div>
       <button>
-        <Link href={"/flexWrap/logosWrapped"}>Tabs Spaced Out</Link>
+        <Link href={"/flexWrap/logosWraped"}>Logos Wrapped</Link>
       </button>
       <button>
-        <Link href={"/flexWrap/responsiveTeamProfile"}>
-          Card With Previous And Next Link
+        <Link href={"/flexWrap/resTeamProfiles"}>
+          Responsive Team Profile
         </Link>
       </button>
     </div>

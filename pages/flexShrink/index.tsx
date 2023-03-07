@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="wrapper">
-      <button><Link href={"/flexWrap/resTeamProfiles"}>Itinerary</Link></button>
-      <button><Link href={"/flexWrap/logosWraped"}>Logos Wraped</Link></button>
-      Adnan
+      <h1>Flex Shrink</h1>
+      <button><Link href={"/flexShrink/itinerary"}>Itinerary</Link></button>
+      <button><Link href={"/flexShrink/profileCard_Large"}>Profile Card (Large)</Link></button>
     </div>
   );
 }

@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-  .wrapper {
-    @apply p-6 bg-amber-200 ;
+  .container {
+    @apply max-w-3xl mx-auto p-10
+  }
+  button {
+    @apply m-2 py-3 px-4 bg-sky-600 text-white text-sm text-center rounded-md;
   }
 }
