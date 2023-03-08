@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    @apply bg-green-100;
+  }
   button {
-    @apply mx-3 my-2 px-2 py-2 bg-white ring ring-black rounded-3xl shadow-md shadow-black
+    @apply mx-3 my-2 px-2 py-2 bg-white ring ring-black rounded-3xl shadow-lg shadow-black
   }
 }

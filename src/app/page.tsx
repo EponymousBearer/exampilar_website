@@ -24,7 +24,7 @@ export default function Page2() {
           </h2>
         </div>
       </div>
-      <div className="bg-gradient-to-r from-green-100 via-green-500 to-green-100">
+      <div className="p-3 bg-gradient-to-r from-green-100 via-green-500 to-green-100">
         <div className="flex align-middle justify-between">
           <button>
             <Link href="/displayFlex">Quotes</Link>
